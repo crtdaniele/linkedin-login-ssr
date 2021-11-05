@@ -2,12 +2,19 @@
   "name": "linkedin-login-ssr",
   "version": "0.0.0-beta",
   "private": false,
-  "description": "",
+  "description": "A library to create a SSO for linkedin with SSR",
   "main": "build/index.js",
   "module": "build/index.js",
   "types": "build/index",
   "typings": "build/index",
-  "keywords": [],
+  "keywords": [
+    "linkedin",
+    "sso",
+    "ssr",
+    "linkedin login",
+    "linkedin javascript",
+    "node"
+  ],
   "author": "Daniele Carta",
   "dependencies": {},
   "devDependencies": {
