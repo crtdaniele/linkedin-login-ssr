@@ -1,0 +1,35 @@
+{
+  "name": "linkedin-login-ssr",
+  "version": "0.0.0-beta",
+  "private": false,
+  "description": "",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "types": "build/index",
+  "typings": "build/index",
+  "keywords": [],
+  "author": "Daniele Carta",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.0.8"
+  },
+  "scripts": {
+    "transpile-state": "rimraf build && tsc",
+    "watch": "tsc -w",
+    "lint": "eslint ./src --ext js,jsx,ts,tsx",
+    "lint:fix": "eslint --fix ./src --ext js,jsx,ts,tsx"
+  },
+  "sideEffects": false
+}
